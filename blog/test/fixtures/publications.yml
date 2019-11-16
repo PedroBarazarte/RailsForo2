@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  title: MyString
+  status: false
+  articule: MyText
+  id_users: one
+  created_at: 2019-11-16 11:40:58
+  updated_at: 2019-11-16 11:40:58
+
+two:
+  id: 1
+  title: MyString
+  status: false
+  articule: MyText
+  id_users: two
+  created_at: 2019-11-16 11:40:58
+  updated_at: 2019-11-16 11:40:58

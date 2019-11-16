@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_publications: one
+  id_categories: one
+
+two:
+  id_publications: two
+  id_categories: two
