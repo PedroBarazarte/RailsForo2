@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeFlakes</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header>
+        <div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="titulo">
+                <h1>CodeFlakes</h1>
+            </div class="login">
+                <form action="" method="">
+                <input type="text" placeholder="User" name="user">
+                <input type="text" placeholder="Password" name="password">
+                <input type="submit" value="login">
+                </form>
+            <div>
+            </div>
+        </div>
+    </header>
+    <%= yield %>
+    <fooder>
+        
+    </footer>
+  </body>
+</html>
